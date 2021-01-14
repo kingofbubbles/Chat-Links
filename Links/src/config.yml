@@ -1,0 +1,52 @@
+reload: "&a&1Reloaded Links"
+
+# Hello! Make sure that the first line coorelates with each of the headers.
+# the strings (with the exception of links) can take in &colorcodes (&a&1)
+# i.e:
+#
+# prefix_messages:                    # make sure you leave a space at the end of the string!
+#   - "This comes before the link "
+#   - "Before the link "
+#
+# suffix_messages:                    # make sure you leave a space at the beginning of the string!
+#   - " This comes after the link"
+#   - " the end"
+#
+# linked_message:                     # what should be displayed in chat to the player (the actual link that you click)
+#   - "Click here for Cylone Youtube!"
+#   - "Click here for Cylone Discord!"
+#
+# hover:                              # what should be displayed when hovering above the text
+#   - "I'm hovering on Cylone!"
+#   - "Hovering!!!!!!"
+#
+# links:                              # where the messages lead, correlates with placement (make sure it's the entire web address otherwise it'll break)
+#   - "https://discord.com"
+#   - "https://www.youtube.com"
+#
+
+
+prefix_messages:
+  - "&a&1Cylone discord "
+  - "&a&1Cylone youtube "
+
+suffix_messages:
+  - "&a&2 to be at the end!"
+  - "&a&3 to chill at the end!"
+
+
+linked_message:
+  - "&a&1[Click Here]"
+  - "&a&1[Click Here]"
+
+hover:
+  - "&a&1Click here for discord!"
+  - "&a&1Click here for youtube!"
+  
+links:
+  - "https://discord.com"
+  - "https://www.youtube.com" 
+
+  
+  
+  
