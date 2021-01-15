@@ -1,52 +1,61 @@
-reload: "&a&1Reloaded Links"
+# Weclome to chat links created by Joshter1!
 
-# Hello! Make sure that the first line coorelates with each of the headers.
-# the strings (with the exception of links) can take in &colorcodes (&a&1)
-# i.e:
-#
-# prefix_messages:                    # make sure you leave a space at the end of the string!
-#   - "This comes before the link "
-#   - "Before the link "
-#
-# suffix_messages:                    # make sure you leave a space at the beginning of the string!
-#   - " This comes after the link"
-#   - " the end"
-#
-# linked_message:                     # what should be displayed in chat to the player (the actual link that you click)
-#   - "Click here for Cylone Youtube!"
-#   - "Click here for Cylone Discord!"
-#
-# hover:                              # what should be displayed when hovering above the text
-#   - "I'm hovering on Cylone!"
-#   - "Hovering!!!!!!"
-#
-# links:                              # where the messages lead, correlates with placement (make sure it's the entire web address otherwise it'll break)
-#   - "https://discord.com"
-#   - "https://www.youtube.com"
-#
+# Reload color configuration
+reload: "&a&lReloaded Links"
 
+# How to configure:
+# Make sure each 'message type' has the same number of lines. You may add empty strings by adding ""
 
+# What will be displayed in chat before the clickable link
 prefix_messages:
-  - "&a&1Cylone discord "
-  - "&a&1Cylone youtube "
+  - "&3========  &e&lServer Links  &3========"
+  - ""
+  - "&b&lWebsite &7 "
+  - "&b&lYoutube &7 "
+  - "&b&lDiscord &7 "
+  - ""
+  - "&3================================"
+  
 
+# What will be displayed in chat after the clickable link
 suffix_messages:
-  - "&a&2 to be at the end!"
-  - "&a&3 to chill at the end!"
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  
 
-
+# What the clickable link will be displayed as in chat
 linked_message:
-  - "&a&1[Click Here]"
-  - "&a&1[Click Here]"
+  - ""
+  - ""
+  - "&3&lClick Here"
+  - "&3&lClick Here"
+  - "&3&lClick Here"
+  - ""
+  - ""
+  
 
+# What message will be displayed when hovering over the link
 hover:
-  - "&a&1Click here for discord!"
-  - "&a&1Click here for youtube!"
+  - ""
+  - ""
+  - "&3Click Here to Visit our Website"
+  - "&3Click Here to Visit our Youtube"
+  - "&3Click Here to Visit our Discord"
+  - ""
+  - ""
   
+# What website will you be redirected to when clicked on
+# Make sure you type in the entire link or the plugin will not load properly
 links:
-  - "https://discord.com"
-  - "https://www.youtube.com" 
-
-  
-  
-  
+  - ""
+  - ""
+  - "http://Example.com"
+  - "http://Youtube.com"
+  - "http://Discord.com"
+  - ""
+  - ""
